@@ -1,0 +1,111 @@
+<html>
+<head>
+<title>Milestone-4</title>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+<style>
+input[type=text], select {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=submit] {
+  width: 80%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=file], select {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=text]:focus {
+ background-color: #f8f8f8;
+ border: 3px solid #555;
+</style>
+<body style="background-image:url('https://cdn.educba.com/academy/wp-content/uploads/2019/07/Versions-of-Html.png');">
+<h1>HTML CONTENT1</h1> 
+<p style="font-size:21;"><i><big>HTML is a markup language that defines the structure of your content.
+ HTML consists of a series of elements, which you use to enclose, or wrap, different parts of the content to make it appear a certain way, or act a certain way.
+ The enclosing tags can make a word or image hyperlink to somewhere else, can italicize words, can make the font bigger or smaller, and so on.
+ </big></i></p>
+ <p style="font-size:27;"><u><big>Discussion of  concept called Paragraphs</big></u></p>
+ <p style="font-size:21;">Let us know about paragraphs.The HTML element defines a paragraph. 
+ A paragraph always starts on a new line, and browsers automatically add some white space (a margin) before and after a paragraph. 
+ You cannot be sure how HTML will be displayed. Large or small screens, and resized windows will create different results.
+ With HTML, you cannot change the display by adding extra spaces or extra lines in your HTML code. 
+The browser will automatically remove any extra spaces and lines when the page is displayed. 
+</p>
+ <object> 
+<img
+ src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLY_EV9R41Cit_VOkZF7Ssj3w 8hhlPirwEpw&usqp=CAU" width="300" height="300" alt="Html"> 
+</object>
+<h1 style="text-align:center;color:lagoon; ">REGISTRATION FORM FOR ONLINE TCS EXAM</h1>
+<form action="/action_page.php" >
+<label for="fname" style="font-size:20;"> First name:</label><br>
+<input type="text" id="fname" name="fname" size="70"value=" "><br><br>
+
+<label for="lname" style="font-size:20;">Last name:</label><br>
+<input type="text" id="lname" name="lname" size="70" value=" "><br><br>
+
+<label for="Rollno" style="font-size:20;">Roll no:</label><br>
+<input type="text" id="Roll no" name="Roll no" size="70" value=" "><br><br>
+
+<label for="Father name" style="font-size:20;">Father name:</label><br>
+<input type="text" id="Father name" name="Father name" size="70" value=" "><br><br>
+
+<label for="Mother name" style="font-size:20;">Mother name:</label><br>
+<input type="text" id="Mother name" name="Mother name" size="70" value=" "><br><br>
+
+<label for="Father's Occupation" style="font-size:20;">Father's Occupation:</label><br>
+<input type="text" id="Father's Occupation" name="Father's Occupation" size="70" value=" "><br><br>
+
+<label for="Mother's Occupation" style="font-size:20;">Mother's Occupation:</label><br>
+<input type="text" id="Mother's Occupation" name="Mother's Occupation" size="70" value=" "><br><br>
+
+<label for="Father's Phno" style="font-size:20;">Father's Phno:</label><br>
+<input type="text" id="Father's Phno" name="Father's Phno" size="70" value=" "><br><br>
+
+<label for="Mother's Phno" style="font-size:20;">Mother's Phno:</label><br>
+<input type="text" id="Mother's Phno" name="Mother's Phno" size="70" value=" "><br><br>
+
+<label for="Aadhar Number" style="font-size:20;">Aadhar Number:</label><br>
+<input type="text" id="Aadhar Number" name="Aadhar Number" size="70" value=" "><br><br>
+<label for="Address" style="font-size:20;">Address:</label><br>
+<textarea name="Address" rows="10" cols="30">
+</textarea><br><br>
+<label for="Qualification" style="font-size:20;">Qualification:</label><br>
+<input type="text" id="Qualification" name="Qualification" size="70" value=" "><br><br>
+
+<label for="Courses Completed" style="font-size:20;">Courses Completed:</label><br>
+<input type="text" id="Courses Completed" name="Courses Completed" size="70" value=" "><br><br>
+
+<label for="Xth CGPA" style="font-size:20;">Xth CGPA:</label><br>
+<input type="text" id="Xth CGPA" name="Xth CGPA" size="70" value=" "><br><br>
+
+<label for="XIIth CGPA" style="font-size:20;">XIIth CGPA:</label><br>
+<input type="text" id="XIIth CGPA" name="XIIth CGPA" size="70" value=" "><br><br>
+
+<label for="myfile" style="font-size:20;">Upload Resume:</label><br>
+<input type="file" id="myfile" name="myfile" size="70"><br><br>
+
+<label for="myfile" style="font-size:20;">Upload Photo:</label><br>
+<input type="file" id="myfile" name="myfile"><br><br>
+
+<input type="submit" style="font-size:20;"value="Submit">
+</form>
+</body>
+</html>
